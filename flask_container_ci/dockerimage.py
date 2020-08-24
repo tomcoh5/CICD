@@ -3,7 +3,7 @@ from subprocess import check_call
 from urllib.request import urlopen
 
 check_call(
-        "docker run --rm --name=web -p 5000:5000 -d flask".split()
+        "docker run --rm --name=web -p 5000:5000 -d myflask".split()
 )
 # Wait for the server to start. A better implementation
 # would poll in a loop:
