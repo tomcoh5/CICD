@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /CICD/flask_container_ci/app
+cd /jenkins-pipeline/flask_container_ci/app
 docker build -t myflask .
 
 if [ $? -eq 0 ]; then
