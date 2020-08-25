@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /app 
+cd /CICD/flask_container_ci/app
 docker build -t myflask .
 
 if [ $? -eq 0 ]; then
